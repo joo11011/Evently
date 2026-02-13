@@ -3,7 +3,6 @@ import 'package:evently/core/Extension.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 
-// Cupertino Button
 class CupertinoCustomButton extends StatelessWidget {
   final String buttonName;
   final VoidCallback onPressed;

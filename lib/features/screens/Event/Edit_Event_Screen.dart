@@ -4,7 +4,6 @@ import 'package:evently/core/constants/app_strings.dart';
 import 'package:evently/core/Extension.dart';
 import 'package:evently/data/model/category.dart';
 import 'package:evently/data/model/event.dart';
-import 'package:evently/core/widgets/custom_button.dart';
 import 'package:evently/features/widget/elevated_btn.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';

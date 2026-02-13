@@ -284,10 +284,6 @@ class _LoveScreenState extends State<LoveScreen> {
                 child: EventStyle(
                   event: event,
                   onTap: () {
-                    // Logic for tapping heart icon (redundant in fav screen but keeps consistency)
-                    // If user taps heart in fav screen, it should probably also remove it?
-                    // Original code: layoutCubit.toggleFavorite(event); setState((){});
-                    // New logic:
                     setState(() {
                       _allEvents.removeWhere((e) => e.data().id == event.id);
                     });

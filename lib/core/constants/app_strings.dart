@@ -1,5 +1,4 @@
 abstract class AppStrings {
-  // Route names
   static const String splash = '/';
   static const String intro = '/intro';
   static const String onBoarding = '/onboarding';

@@ -22,31 +22,31 @@ class AppRoutes {
       case AppStrings.splash:
         return PageRouteBuilder(
           pageBuilder: (context, animation, secondaryAnimation) =>
-              const SplashScreen(),
+              SplashScreen(),
         );
       case AppStrings.intro:
         return PageRouteBuilder(
           transitionDuration: const Duration(seconds: 3),
           pageBuilder: (context, animation, secondaryAnimation) =>
-              const IntroScreen(),
+              IntroScreen(),
         );
       case AppStrings.onBoarding:
         return PageRouteBuilder(
           transitionDuration: const Duration(seconds: 3),
           pageBuilder: (context, animation, secondaryAnimation) =>
-              const OnBoardingScreen(),
+              OnBoardingScreen(),
         );
       case AppStrings.login:
         return PageRouteBuilder(
           transitionDuration: const Duration(seconds: 1),
           pageBuilder: (context, animation, secondaryAnimation) =>
-              const LoginScreen(),
+              LoginScreen(),
         );
 
       case AppStrings.forgotPassword:
         return PageRouteBuilder(
           pageBuilder: (context, animation, secondaryAnimation) =>
-              const ForgotPasswordScreen(),
+              ForgotPasswordScreen(),
         );
 
       case AppStrings.register:
@@ -56,20 +56,19 @@ class AppRoutes {
 
       case AppStrings.home:
         return PageRouteBuilder(
-          pageBuilder: (context, animation, secondaryAnimation) =>
-              const HomeScreen(),
+          pageBuilder: (context, animation, secondaryAnimation) => HomeScreen(),
         );
 
       case AppStrings.layout:
         return PageRouteBuilder(
           pageBuilder: (context, animation, secondaryAnimation) =>
-              const LayoutScreen(),
+              LayoutScreen(),
         );
 
       case AppStrings.addEvent:
         return PageRouteBuilder(
           pageBuilder: (context, animation, secondaryAnimation) =>
-              const AddEventScreen(),
+              AddEventScreen(),
         );
 
       case AppStrings.editEvent:
@@ -102,7 +101,6 @@ class AppRoutes {
             ),
           );
         }
-
 
       default:
         return PageRouteBuilder(

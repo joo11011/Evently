@@ -4,7 +4,7 @@ import 'package:evently/core/constants/app_strings.dart';
 import 'package:evently/data/model/category.dart';
 import 'package:evently/data/web_services/layout_service.dart';
 import 'package:evently/features/cubit/Layout_Cubit.dart';
-import 'package:evently/features/widget/event_style.dart';
+import 'package:evently/features/screens/widgets/event_style.dart';
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
