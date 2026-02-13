@@ -74,6 +74,6 @@ Evently is a modern, feature-rich **Flutter** application designed to help users
 
 ## 📬 Contact
 
-Created by ***Youssef Abdallah*** - [LinkedIn Profile](www.linkedin.com/in/youssef-abdallah-)
+Created by ***Youssef Abdallah*** - LinkedIn Profile (www.linkedin.com/in/youssef-abdallah-)
 
 If you like this project, give it a star! ⭐
